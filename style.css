@@ -28,7 +28,7 @@ body {
 	grid-template-areas: 'image' 'text' 'stats';
 	background: #fff;
 	text-align: center;
-	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -63,7 +63,6 @@ body {
 	max-width: 90%;
 }
 
-.age,
 .city,
 .ops_stats {
 	color: hsl(0, 0%, 59%);
@@ -74,9 +73,12 @@ body {
 	font-size: 18px;
 	font-weight: 700;
 }
+
 .age {
 	font-size: 18px;
 	font-weight: 700;
+	color: hsl(0, 0%, 59%);
+	opacity: 0.7;
 }
 
 .card_stats {
@@ -90,12 +92,14 @@ body {
 
 .value {
 	margin-bottom: 5px;
+
 	color: hsl(229, 23%, 23%);
 	font-weight: 700;
 }
 
 .ops_stats {
 	font-size: 12px;
+	letter-spacing: 1.5px;
 }
 
 ul {
